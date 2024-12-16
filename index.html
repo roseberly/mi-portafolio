@@ -30,7 +30,7 @@
             <h1 class="display-4">¡Hola! Soy Roseberly</h1>
             <p class="lead">Estudiante de Ingenieria en Sistemas</p>
             <hr class="my-4">
-            <p>¡Hola! Soy estudiante entusiasta, con un profundo interés en la informatica. Actualmente, estoy estudiando en la UISIL y me apasiona aprender y aplicar mis conocimientos en proyectos reales.</p>
+            <p>Soy estudiante entusiasta, con un profundo interés en la informatica. Actualmente, estoy estudiando en la UISIL y me apasiona aprender cada vez más.</p>
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -155,18 +155,18 @@
 
 <section id="contact" class="container mt-5">
     <h2>Contacto</h2>
-    <form>
+    <form action="https://formspree.io/f/<tu-email>" method="POST">
         <div class="mb-3">
             <label for="name" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="name" required>
+            <input type="text" class="form-control" id="name" name="name" required>
         </div>
         <div class="mb-3">
             <label for="email" class="form-label">Correo Electrónico</label>
-            <input type="email" class="form-control" id="email" required>
+            <input type="email" class="form-control" id="email" name="_replyto" required>
         </div>
         <div class="mb-3">
             <label for="message" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="message" rows="3" required></textarea>
+            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
